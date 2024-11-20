@@ -1,5 +1,5 @@
 # MD_2024
-Molecular Dynamics project+notes
+Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
 
 TODO: Description of complete procedure for converting .pdb file into LAMMPS input with H20 molecules added
 
