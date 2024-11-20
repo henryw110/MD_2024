@@ -1,4 +1,6 @@
 # MD_2024
+
+[![video](https://raw.githubusercontent.com/henryw110/MD_2024/output/output/demo_thumbnail.jpg)](https://raw.githubusercontent.com/henryw110/MD_2024/output/output/demo_video.mp4)
 Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
 
 Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
