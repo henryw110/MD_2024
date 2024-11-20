@@ -16,7 +16,7 @@ TODO: Trajectories and other simulation output for analysis
 Bibliography:
 1. A. Mafi et al., "Mechanism of β-arrestin recruitment by the μ-opioid G protein-coupled receptor" (2020)
 
-  TRV-130 paper, source for base PDB file. 
+  -TRV-130 paper, source for base PDB file. 
 
 2. D.A Case et al., "Amber 2023" (2023)
 
