@@ -1,6 +1,13 @@
 # MD_2024
 Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
 
+Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
+
+(Instructions for AmberTools23 install)[https://ambermd.org/GetAmber.php]
+(Instructions for installing LAMMPS with Homebrew )[https://formulae.brew.sh/formula/lammps]
+
+
+
 TODO: Description of complete procedure for converting .pdb file into LAMMPS input with H20 molecules added
 
 TODO: Code used for conversion
