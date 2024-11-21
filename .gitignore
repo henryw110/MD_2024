@@ -9,6 +9,14 @@
 *.DS_Store
 
 #Ignore parmameters, coords, laamps files in /src
+src/**/*.pdb
 src/**/*.inpcrd
 src/**/*.prmtop
 src/**/*.in
+
+#ignore all images and videos
+*.jpg
+*.mpg
+
+.bundle*
+.config*

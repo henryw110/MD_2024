@@ -8,7 +8,7 @@ print(sys.argv)
 
 inputParms=sys.argv[1]
 inputCoords=sys.argv[2]
-outputFile=sys.argv[3]+"_data.in"
+outputFile=sys.argv[3]
 c=LoadParm(inputParms,inputCoords)
 c.load_pointers()
 p=ParameterSet.from_structure(c)

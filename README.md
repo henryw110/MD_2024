@@ -6,17 +6,34 @@ Molecular Dynamics project+notes. "Docs" folder has most material in the bibliog
 
 <video src="https://github.com/user-attachments/assets/5ec062ac-e287-4eeb-9180-8adccf1bca81" width="480" height="480" > </ video >  
 
-Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
+Requires Python3, Pip, AmberTools and LAMMPS installed on your machine for all conversions and simulation. Only tested on Mac. ffmpeg and pymol suggested.
 
 
 - [Instructions for AmberTools23 install](https://ambermd.org/GetAmber.php)
 - [Instructions for installing LAMMPS with Homebrew ](https://formulae.brew.sh/formula/lammps)
 
-TODO: Description of complete procedure for converting .pdb file into LAMMPS input with H20 molecules added
 
-TODO: Code used for conversion
+## Solvation and conversion of .pdb file to LAMMPS data format for use in simulations.
+- Place pdb for conversion in /data folder. "Barr2_MOR_noTRV.pdb" is included in the repo.
+- At the highest level of the repo, /MD_2024, run ```python3 -m .venv . --prompt MD_2024```
+- ```source .venv/bin/activate```
+- ```pip install -r requirements.txt```
+- ```cd src/converter```
+- ``` bash ./tleap.sh [TARGET PDB FILE NAME]``` -filename is technically optional, the script will default to "Barr2_MOR_noTRV.pdb"
+- A script should run and output appropriately named .prmtop .inpcrd files along with a new pdb in /data which is named "-solvated". Open this pdb with pymol to visually confirm that the box has been solvated.
+- The files with names ending in "solvated-data.in" in /data are the extracted atom positions, atom types, and associated angle, dihedral, etc. parameters extracted from the .prmtop file using Python library parmed and rewritten as LAMMPS commands
+- ```cd lammps```
+- ```lmp-serial -in in.lammps``` Runs a simulation. For visual confirmation look at the images dumped in lammps/img. At the end of the sim run ffmpeg will try to assemble a video out of the images. A .log file with some thermodynamic data will also be written automatically.
+
+
+
+TODO: Description of complete procedure for converting parameters from .prmtop files into LAMMPS data using the canonical Amber potential energy formulas.
 
 TODO: Trajectories and other simulation output for analysis
+
+TODO: Ligand parameterization w/ Antechamber
+
+TODO: Neutralization of charges in solvate box with NaCl ions. 
 
 
 Bibliography:

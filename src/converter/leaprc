@@ -1,0 +1,3 @@
+source leaprc.protein.ff14sb
+source leaprc.phosaa10
+source leaprc.water.TIP3P
