@@ -1,7 +1,13 @@
 # MD_2024
-Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
+
+
+
+Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.  
+
+<video src="https://github.com/user-attachments/assets/5ec062ac-e287-4eeb-9180-8adccf1bca81" width="480" height="480" > </ video >  
 
 Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
+
 
 - [Instructions for AmberTools23 install](https://ambermd.org/GetAmber.php)
 - [Instructions for installing LAMMPS with Homebrew ](https://formulae.brew.sh/formula/lammps)
