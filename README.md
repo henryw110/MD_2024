@@ -1,9 +1,14 @@
 # MD_2024
 
+<video width="480" height="480" controls>
+<source src="output/demo_video.mp4" type="video/mp4">
+</video>
+
 [![video](output/demo_thumbnail.jpg)](output/demo_video.mp4)
 Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
 
 Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
+
 
 - [Instructions for AmberTools23 install](https://ambermd.org/GetAmber.php)
 - [Instructions for installing LAMMPS with Homebrew ](https://formulae.brew.sh/formula/lammps)
