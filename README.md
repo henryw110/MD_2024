@@ -1,7 +1,7 @@
 # MD_2024
 
 <video width="480" height="480" controls>
-<source src="output/demo_video.mp4" type="video/mp4">
+<source srcset="output/demo_video.mp4" type="video/mp4">
 </video>
 
 [![video](output/demo_thumbnail.jpg)](output/demo_video.mp4)
