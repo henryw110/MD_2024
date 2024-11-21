@@ -1,11 +1,10 @@
 # MD_2024
 
-<video width="480" height="480" controls>
-<source srcset="output/demo_video.mp4" type="video/mp4">
-</video>
 
-[![video](output/demo_thumbnail.jpg)](output/demo_video.mp4)
-Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.
+
+Molecular Dynamics project+notes. "Docs" folder has most material in the bibliography.  
+
+<video src="https://github.com/user-attachments/assets/5ec062ac-e287-4eeb-9180-8adccf1bca81" width="480" height="480" > </ video >  
 
 Requires AmberTools and LAMMPS installed on your machine for conversion and simulation. Only tested on Mac.
 
