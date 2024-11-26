@@ -4,7 +4,7 @@
 
 
 Bibliography  
-1. ("PEPCONF, a diverse data set of peptide conformational energies")[https://www.nature.com/articles/sdata2018310]
+1. ["PEPCONF, a diverse data set of peptide conformational energies"](https://www.nature.com/articles/sdata2018310)
 
 Appears to be strong agreement between energy from LAMMPS thermo and Ambertools cpptraj for a converted peptide (Total -149.4593 in cpptraj, -149.350 in LAMMPS). 
 TODO:Apply to rest of PEPCONF 
