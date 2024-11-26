@@ -1,4 +1,4 @@
-%VERSION  VERSION_STAMP = V0001.000  DATE = 11/26/24  11:03:03                  
+%VERSION  VERSION_STAMP = V0001.000  DATE = 11/26/24  12:41:26                  
 %FLAG TITLE                                                                     
 %FORMAT(20a4)                                                                   
 default_name                                                                    
@@ -6,7 +6,7 @@ default_name
 %FORMAT(10I8)                                                                   
       57       9      26      30      57      39     142     118       0       0
      292       5      30      39     118      14      27      44      11       0
-       0       0       0       0       0       0       0       0      16       0
+       0       0       0       0       0       0       0       1      16       0
        0
 %FLAG ATOM_NAME                                                                 
 %FORMAT(20a4)                                                                   
@@ -455,6 +455,15 @@ M   E   3   E   E   3   E   E   B   E   S   E   M   E   M   E   E
        0       0       0       0       0       0       0       0       0       0
        0       0       0       0       0       0       0       0       0       0
        0       0       0       0       0       0       0
+%FLAG SOLVENT_POINTERS                                                          
+%FORMAT(3I8)                                                                    
+       5       1       2
+%FLAG ATOMS_PER_MOLECULE                                                        
+%FORMAT(10I8)                                                                   
+      57
+%FLAG BOX_DIMENSIONS                                                            
+%FORMAT(5E16.8)                                                                 
+  9.00000000E+01  1.32622000E+01  1.25860000E+01  1.04360000E+01
 %FLAG RADIUS_SET                                                                
 %FORMAT(1a80)                                                                   
 modified Bondi radii (mbondi)                                                   
