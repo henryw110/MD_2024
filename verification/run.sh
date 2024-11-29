@@ -21,4 +21,4 @@ cat ene.dat&&\
 lmp_serial -in in.lammps > /dev/null &&\
 echo "lammps energy" &&\
 cat "dump.yaml"
-#!/bin/bash
+
