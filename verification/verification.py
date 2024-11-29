@@ -6,7 +6,13 @@ aminos={
   "NHE":["N","HN1","HN2"],
   "GLN": ["N","H","CA","HA","CB","HB2","HB3","CG","HG2","HG3","CD","OE1","NE2","HE21","HE22","C","D"],
   "HIE": ["N","H","CA","HA","CB","HB2","HB3","CG","ND1","CE1","HE1","NE2","HE2","CD2","HD2","C","O"],
-  "LEU": ["N","H","CA","HA","CB","HB2","HB3","CG","HG","CD1","HD11","HD12","HD13","CD2","HD21","HD22","HD23","C","O"]
+  "LEU": ["N","H","CA","HA","CB","HB2","HB3","CG","HG","CD1","HD11","HD12","HD13","CD2","HD21","HD22","HD23","C","O"],
+  "MET":["N","H","CA","HA","CB","HB2","HB3","CG","HG2","HG3","SD","CE","HE1","HE2","HE3","C","O"],
+  "PRO":["N","CD","HD2","HD3","CG","HG2","HG3","CB","HB2","HB3","CA","HA","C","O"],
+  "TYR":["N","H","CA","HA","CB","HB2","HB3","CG","CD1","HD1","CE1","HE1","CZ","OH","HH","CE2","HE2","CD2","HD2","C","O"],
+  "TRP":["N","H","CA","HA","CB","HB2","HB3","CG","CD1","HD1","NE1","HE1","CE2","CZ2","HZ2","CH2","HH2","CZ3","HZ3","CE3","HE3","CD2","C","O"],
+  
+
 
 
 }

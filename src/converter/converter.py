@@ -61,6 +61,8 @@ T_ATOMS_COUNT=(len(lj_dict.keys()))
 T_BONDS_COUNT=len(bond_types)
 T_ANGLES_COUNT=len(angle_types)
 
+
+
 strs=""
 strs=["LAMMPS Description\n\n"]
 strs.append("%d atoms\n"%(ATOMS_COUNT))
