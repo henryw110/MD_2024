@@ -1,3 +1,0 @@
-parmed
-openmm
-numpy
