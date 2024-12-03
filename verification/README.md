@@ -10,3 +10,6 @@ Appears to be strong agreement between energy from LAMMPS thermo and Ambertools 
 TODO:Apply to rest of PEPCONF 
 ![Screenshot_2024-11-26_at_12 41 38_PM](https://github.com/user-attachments/assets/a1ab610b-dbf0-4f96-a5d8-d33db27df418)
 
+
+Chart below
+![chart](https://github.com/user-attachments/assets/1072e632-5e9a-42ae-bd9b-59d3a03c9836)
