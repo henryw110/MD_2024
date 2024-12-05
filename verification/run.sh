@@ -1,7 +1,5 @@
 #!/bin/bash
-# if [ $1 ]; then
-#   fname=${{$1}%.pdb}
-#fi
+
 echo "conformation, sequence, amber total energy, lammps total energy" > energy.csv
 F=$(ls -1 ./tripeptide/xyz)
 echo "${F}"|while read p; do
@@ -52,30 +50,3 @@ rm out.prmtop
 rm out.pdb
 rm out.in
 rm log.lammps
-
-
-
-#fname='out' && \
-# python verification.py&&\
-#STR="mol=loadPdb ${fname}.pdb; setBox mol \"vdw\";savePdb mol $fname.pdb; saveAmberParm mol $fname.prmtop $fname.inpcrd; quit"&&\
-#echo -e $STR | tleap -I . -f - > /dev/null
-#python ../src/converter/converter.py $fname.prmtop $fname.inpcrd $fname.in > /dev/null &&\
-# STR="parm ${fname}.prmtop\n
-# trajin ${fname}.inpcrd\n
-# box auto \n
-# box x 30 y 30 z 30\n
-# energy out ene.dat en bond angle dihedral nb14 nonbond etype pme cut 12 ljswidth 2 nfft 25,25,25  \n
-# datafile ene.dat invert noxcol\n
-# run\n
-# printdata pep[*]\n
-# printdata en[*]" &&\
-# echo -e $STR  | cpptraj > /dev/null &&\
-# # cat ene.dat&&\
-# lmp_serial -in in.lammps > /dev/null &&\
-# cat ene.dat | while read q; do
-#   st=${q#"en[total]"}
-#   if [ "$st" != "$q" ]; then
-#     echo "$fname $st" >> energy
-#   fi
-# done
-

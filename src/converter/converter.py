@@ -136,6 +136,7 @@ for a in dict2.values():
 
 j+=1
 i=0
+mc=2
 
 strs.append("\n\nAtoms\n\n")
 for a in atoms_list:
@@ -147,7 +148,8 @@ for a in atoms_list:
   a_res=a["residue"]
   mol=1
   if(a_res=="WAT"):
-    mol=2
+    mol=mc
+    mc+=1
   q=a["charge"]
   print(a)
   co=a["coords"]
