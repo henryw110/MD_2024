@@ -75,9 +75,9 @@ strs.append("%d bond types\n"%(T_BONDS_COUNT))
 strs.append("%d angle types\n"%(T_ANGLES_COUNT))
 strs.append("%d dihedral types\n"%(T_DIHEDRAL_COUNT))
 strs.append("%d improper types\n\n"%(0))
-strs.append("-5 %f xlo xhi \n"%(1.1*c.box[0]))
-strs.append("-5 %f ylo yhi \n"%(1.1*c.box[1]))
-strs.append("-5 %f zlo zhi \n\n"%(1.1*c.box[2]))
+strs.append("0. %f xlo xhi \n"%(1.0*c.box[0]))
+strs.append("0. %f ylo yhi \n"%(1.0*c.box[1]))
+strs.append("0. %f zlo zhi \n\n"%(1.0*c.box[2]))
 strs.append("Masses\n\n")
 
 i=0
@@ -136,7 +136,7 @@ for a in dict2.values():
 
 j+=1
 i=0
-mc=2
+mc=1
 
 strs.append("\n\nAtoms\n\n")
 for a in atoms_list:
@@ -149,7 +149,8 @@ for a in atoms_list:
   mol=1
   if(a_res=="WAT"):
     mol=mc
-    mc+=1
+    if(lj_idx==18):
+      mc+=1
   q=a["charge"]
   print(a)
   co=a["coords"]

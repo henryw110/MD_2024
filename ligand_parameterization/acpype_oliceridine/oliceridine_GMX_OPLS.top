@@ -1,0 +1,19 @@
+; oliceridine_GMX_OPLS.top created by acpype (v: 2022.7.21) on Tue Mar 21 20:14:26 2023
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include oliceridine_GMX.itp topology
+#include "oliceridine_GMX.itp"
+
+; Ligand position restraints
+#ifdef POSRES_LIG
+#include "posre_oliceridine.itp"
+#endif
+
+[ system ]
+ oliceridine
+
+[ molecules ]
+; Compound        nmols
+ oliceridine      1
